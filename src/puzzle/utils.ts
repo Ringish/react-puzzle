@@ -16,8 +16,8 @@ export const getPieceStyles = (index: number, inPlace: boolean) => {
   const styles: CSSProperties = {
     cursor: "grab",
     backgroundImage: `url("${popcorn}")`,
-    width: "100px",
-    height: "118px",
+    width: `${PIECE_WIDTH}px`,
+    height: `${PIECE_HEIGHT}px`,
     borderRadius: inPlace ? 0 : "20px",
     backgroundPosition: `-${offsetX}px -${offsetY}px`,
     boxShadow: inPlace ? "none" : "0px 3px 8px 1px rgba(0,0,0,0.5)",

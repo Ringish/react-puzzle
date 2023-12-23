@@ -37,7 +37,6 @@ const Puzzle = ({ numberOfPieces }: Props) => {
           alignItems: "center",
           fontWeight: 900,
           fontSize: "40px",
-          maxHeight: "560px",
         }}
       >
         Vi bjuder på mat och bio
@@ -49,7 +48,7 @@ const Puzzle = ({ numberOfPieces }: Props) => {
     <div style={{ display: "flex" }}>
       <Board />
       <CustomDragLayer />
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", width: '500px' }}>
         {pieces.map((_, i: number) => (
           <Piece
             key={_}
