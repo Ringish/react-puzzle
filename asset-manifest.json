@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.771fa7a2.css",
+    "main.js": "/static/js/main.a64c4c2c.js",
+    "static/js/787.e185ee75.chunk.js": "/static/js/787.e185ee75.chunk.js",
+    "static/media/popcorn.jpeg": "/static/media/popcorn.8b9226e26a0aab40ab86.jpeg",
+    "static/media/theatre.png": "/static/media/theatre.9830e44c631b956e7a8d.png",
+    "index.html": "/index.html",
+    "main.771fa7a2.css.map": "/static/css/main.771fa7a2.css.map",
+    "main.a64c4c2c.js.map": "/static/js/main.a64c4c2c.js.map",
+    "787.e185ee75.chunk.js.map": "/static/js/787.e185ee75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.771fa7a2.css",
+    "static/js/main.a64c4c2c.js"
+  ]
+}
